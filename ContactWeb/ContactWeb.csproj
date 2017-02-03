@@ -202,10 +202,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201701271729446_InitialCreate.cs" />
-    <Compile Include="Migrations\201701271729446_InitialCreate.Designer.cs">
-      <DependentUpon>201701271729446_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201702022106317_InitialCreate.cs" />
+    <Compile Include="Migrations\201702022106317_InitialCreate.Designer.cs">
+      <DependentUpon>201702022106317_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\ApplicationDbConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Contact.cs" />
@@ -287,8 +288,8 @@
     <Content Include="Views\Contacts\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701271729446_InitialCreate.resx">
-      <DependentUpon>201701271729446_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702022106317_InitialCreate.resx">
+      <DependentUpon>201702022106317_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
